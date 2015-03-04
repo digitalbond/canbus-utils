@@ -1,0 +1,19 @@
+{
+  "name": "canbus-utils",
+  "version": "0.1.0",
+  "description": "Set of command line CANBus analysis utilities",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbond/canbus-utils.git"
+  },
+  "keywords": [
+    "CANBus",
+    "canbus"
+  ],
+  "author": "Corey Thuen <thuen@digitalbond.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digitalbond/canbus-utils/issues"
+  },
+  "homepage": "https://github.com/digitalbond/canbus-utils"
+}
