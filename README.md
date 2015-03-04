@@ -37,7 +37,7 @@ A tool for analyzing different messages on a given ID. Messages are printed out 
 --color: Color the bytes that have changed sine the previous message. default true
 ```
 
-### detect_obdii
+### decode_obdii
 Listens on CANBus an prints out OBDII request and replies.
 
 ### canbus_IDS
