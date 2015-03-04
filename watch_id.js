@@ -19,11 +19,12 @@ if (can.argv.h || can.argv.help || !can.argv.id) {
 var lastdata = {};
 
 can.onMessage(function(msg) {
+	var x = 0;
 	if (can.argv.id.indexOf(msg.id) !== -1) {
 		var outstr = can.decToHex(msg.id) + ": ";
 		if (lastdata[msg.id]) {
 			var last = lastdata[msg.id];
-			for (var x = 0; x < msg.data.length; x++) {
+			for (x = 0; x < msg.data.length; x++) {
 				if (msg.data[x] !== last[x]) {
 					if (can.argv.color) {
 						outstr += can.decToHex(msg.data[x], 2).red;
@@ -36,9 +37,11 @@ can.onMessage(function(msg) {
 				outstr += " ";
 			}
 		} else {
-			lastdata[msg.id] = msg.data;
-			outstr += msg.data.toString('hex');
+			for (x = 0; x < msg.data.length; x++) {
+				outstr += can.decToHex(msg.data[x], 2) + " ";
+			}
 		}
+		lastdata[msg.id] = msg.data;
 		console.log(outstr);
 	}
 });
