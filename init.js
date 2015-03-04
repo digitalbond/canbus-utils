@@ -70,7 +70,7 @@ module.exports.onClose = function(cb) {
 process.on('SIGINT', function() {
 	can.stop();
 	if (closecallbacks.length === 0) {
-		console.log("total messages: ", msgCount);
+		console.error("total messages: ", msgCount);
 	}
 	closecallbacks.forEach(function(cb) {
 		cb(msgCount);
