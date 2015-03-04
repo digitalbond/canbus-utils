@@ -1,0 +1,610 @@
+[null, [{
+	"PID": "00",
+	"DataLen": 4,
+	"Desc": "PIDs supported [01 - 20]"
+}, {
+	"PID": "01",
+	"DataLen": 4,
+	"Desc": "Monitor status since DTCs cleared."
+}, {
+	"PID": "02",
+	"DataLen": 2,
+	"Desc": "Freeze DTC"
+}, {
+	"PID": "03",
+	"DataLen": 2,
+	"Desc": "Fuel system status"
+}, {
+	"PID": "04",
+	"DataLen": 1,
+	"Desc": "Calculated engine load value"
+}, {
+	"PID": "05",
+	"DataLen": 1,
+	"Desc": "Engine coolant temperature"
+}, {
+	"PID": "06",
+	"DataLen": 1,
+	"Desc": "Short term fuel % trim—Bank 1"
+}, {
+	"PID": "07",
+	"DataLen": 1,
+	"Desc": "Long term fuel % trim—Bank 1"
+}, {
+	"PID": "08",
+	"DataLen": 1,
+	"Desc": "Short term fuel % trim—Bank 2"
+}, {
+	"PID": "09",
+	"DataLen": 1,
+	"Desc": "Long term fuel % trim—Bank 2"
+}, {
+	"PID": "0A",
+	"DataLen": 1,
+	"Desc": "Fuel pressure"
+}, {
+	"PID": "0B",
+	"DataLen": 1,
+	"Desc": "Intake manifold absolute pressure"
+}, {
+	"PID": "0C",
+	"DataLen": 2,
+	"Desc": "Engine RPM"
+}, {
+	"PID": "0D",
+	"DataLen": 1,
+	"Desc": "Vehicle speed"
+}, {
+	"PID": "0E",
+	"DataLen": 1,
+	"Desc": "Timing advance"
+}, {
+	"PID": "0F",
+	"DataLen": 1,
+	"Desc": "Intake air temperature"
+}, {
+	"PID": "10",
+	"DataLen": 2,
+	"Desc": "MAF air flow rate"
+}, {
+	"PID": "11",
+	"DataLen": 1,
+	"Desc": "Throttle position"
+}, {
+	"PID": "12",
+	"DataLen": 1,
+	"Desc": "Commanded secondary air status"
+}, {
+	"PID": "13",
+	"DataLen": 1,
+	"Desc": "Oxygen sensors present"
+}, {
+	"PID": "14",
+	"DataLen": 2,
+	"Desc": "Bank 1, Sensor 1: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "15",
+	"DataLen": 2,
+	"Desc": "Bank 1, Sensor 2: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "16",
+	"DataLen": 2,
+	"Desc": "Bank 1, Sensor 3: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "17",
+	"DataLen": 2,
+	"Desc": "Bank 1, Sensor 4: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "18",
+	"DataLen": 2,
+	"Desc": "Bank 2, Sensor 1: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "19",
+	"DataLen": 2,
+	"Desc": "Bank 2, Sensor 2: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "1A",
+	"DataLen": 2,
+	"Desc": "Bank 2, Sensor 3: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "1B",
+	"DataLen": 2,
+	"Desc": "Bank 2, Sensor 4: Oxygen sensor voltage, Short term fuel trim"
+}, {
+	"PID": "1C",
+	"DataLen": 1,
+	"Desc": "OBD standards this vehicle conforms to"
+}, {
+	"PID": "1D",
+	"DataLen": 1,
+	"Desc": "Oxygen sensors present"
+}, {
+	"PID": "1E",
+	"DataLen": 1,
+	"Desc": "Auxiliary input status"
+}, {
+	"PID": "1F",
+	"DataLen": 2,
+	"Desc": "Run time since engine start"
+}, {
+	"PID": "20",
+	"DataLen": 4,
+	"Desc": "PIDs supported [21 - 40]"
+}, {
+	"PID": "21",
+	"DataLen": 2,
+	"Desc": "Distance traveled with malfunction indicator lamp (MIL) on"
+}, {
+	"PID": "22",
+	"DataLen": 2,
+	"Desc": "Fuel Rail Pressure (relative to manifold vacuum)"
+}, {
+	"PID": "23",
+	"DataLen": 2,
+	"Desc": "Fuel Rail Pressure (diesel, or gasoline direct inject)"
+}, {
+	"PID": "24",
+	"DataLen": 4,
+	"Desc": "O2S1_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "25",
+	"DataLen": 4,
+	"Desc": "O2S2_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "26",
+	"DataLen": 4,
+	"Desc": "O2S3_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "27",
+	"DataLen": 4,
+	"Desc": "O2S4_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "28",
+	"DataLen": 4,
+	"Desc": "O2S5_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "29",
+	"DataLen": 4,
+	"Desc": "O2S6_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "2A",
+	"DataLen": 4,
+	"Desc": "O2S7_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "2B",
+	"DataLen": 4,
+	"Desc": "O2S8_WR_lambda(1): Equivalence Ratio Voltage"
+}, {
+	"PID": "2C",
+	"DataLen": 1,
+	"Desc": "Commanded EGR"
+}, {
+	"PID": "2D",
+	"DataLen": 1,
+	"Desc": "EGR Error"
+}, {
+	"PID": "2E",
+	"DataLen": 1,
+	"Desc": "Commanded evaporative purge"
+}, {
+	"PID": "2F",
+	"DataLen": 1,
+	"Desc": "Fuel Level Input"
+}, {
+	"PID": "30",
+	"DataLen": 1,
+	"Desc": "# of warm-ups since codes cleared"
+}, {
+	"PID": "31",
+	"DataLen": 2,
+	"Desc": "Distance traveled since codes cleared"
+}, {
+	"PID": "32",
+	"DataLen": 2,
+	"Desc": "Evap. System Vapor Pressure"
+}, {
+	"PID": "33",
+	"DataLen": 1,
+	"Desc": "Barometric pressure"
+}, {
+	"PID": "34",
+	"DataLen": 4,
+	"Desc": "O2S1_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "35",
+	"DataLen": 4,
+	"Desc": "O2S2_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "36",
+	"DataLen": 4,
+	"Desc": "O2S3_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "37",
+	"DataLen": 4,
+	"Desc": "O2S4_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "38",
+	"DataLen": 4,
+	"Desc": "O2S5_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "39",
+	"DataLen": 4,
+	"Desc": "O2S6_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "3A",
+	"DataLen": 4,
+	"Desc": "O2S7_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "3B",
+	"DataLen": 4,
+	"Desc": "O2S8_WR_lambda(1): Equivalence Ratio Current"
+}, {
+	"PID": "3C",
+	"DataLen": 2,
+	"Desc": "Catalyst Temperature Bank 1, Sensor 1"
+}, {
+	"PID": "3D",
+	"DataLen": 2,
+	"Desc": "Catalyst Temperature Bank 2, Sensor 1"
+}, {
+	"PID": "3E",
+	"DataLen": 2,
+	"Desc": "Catalyst Temperature Bank 1, Sensor 2"
+}, {
+	"PID": "3F",
+	"DataLen": 2,
+	"Desc": "Catalyst Temperature Bank 2, Sensor 2"
+}, {
+	"PID": "40",
+	"DataLen": 4,
+	"Desc": "PIDs supported [41 - 60]"
+}, {
+	"PID": "41",
+	"DataLen": 4,
+	"Desc": "Monitor status this drive cycle"
+}, {
+	"PID": "42",
+	"DataLen": 2,
+	"Desc": "Control module voltage"
+}, {
+	"PID": "43",
+	"DataLen": 2,
+	"Desc": "Absolute load value"
+}, {
+	"PID": "44",
+	"DataLen": 2,
+	"Desc": "Fuel/Air commanded equivalence ratio"
+}, {
+	"PID": "45",
+	"DataLen": 1,
+	"Desc": "Relative throttle position"
+}, {
+	"PID": "46",
+	"DataLen": 1,
+	"Desc": "Ambient air temperature"
+}, {
+	"PID": "47",
+	"DataLen": 1,
+	"Desc": "Absolute throttle position B"
+}, {
+	"PID": "48",
+	"DataLen": 1,
+	"Desc": "Absolute throttle position C"
+}, {
+	"PID": "49",
+	"DataLen": 1,
+	"Desc": "Accelerator pedal position D"
+}, {
+	"PID": "4A",
+	"DataLen": 1,
+	"Desc": "Accelerator pedal position E"
+}, {
+	"PID": "4B",
+	"DataLen": 1,
+	"Desc": "Accelerator pedal position F"
+}, {
+	"PID": "4C",
+	"DataLen": 1,
+	"Desc": "Commanded throttle actuator"
+}, {
+	"PID": "4D",
+	"DataLen": 2,
+	"Desc": "Time run with MIL on"
+}, {
+	"PID": "4E",
+	"DataLen": 2,
+	"Desc": "Time since trouble codes cleared"
+}, {
+	"PID": "4F",
+	"DataLen": 4,
+	"Desc": "Maximum value for equivalence ratio, oxygen sensor voltage, oxygen sensor current, and intake manifold absolute pressure"
+}, {
+	"PID": "50",
+	"DataLen": 4,
+	"Desc": "Maximum value for air flow rate from mass air flow sensor"
+}, {
+	"PID": "51",
+	"DataLen": 1,
+	"Desc": "Fuel Type"
+}, {
+	"PID": "52",
+	"DataLen": 1,
+	"Desc": "Ethanol fuel %"
+}, {
+	"PID": "53",
+	"DataLen": 2,
+	"Desc": "Absolute Evap system Vapor Pressure"
+}, {
+	"PID": "54",
+	"DataLen": 2,
+	"Desc": "Evap system vapor pressure"
+}, {
+	"PID": "55",
+	"DataLen": 2,
+	"Desc": "Short term secondary oxygen sensor trim bank 1 and bank 3"
+}, {
+	"PID": "56",
+	"DataLen": 2,
+	"Desc": "Long term secondary oxygen sensor trim bank 1 and bank 3"
+}, {
+	"PID": "57",
+	"DataLen": 2,
+	"Desc": "Short term secondary oxygen sensor trim bank 2 and bank 4"
+}, {
+	"PID": "58",
+	"DataLen": 2,
+	"Desc": "Long term secondary oxygen sensor trim bank 2 and bank 4"
+}, {
+	"PID": "59",
+	"DataLen": 2,
+	"Desc": "Fuel rail pressure (absolute)"
+}, {
+	"PID": "5A",
+	"DataLen": 1,
+	"Desc": "Relative accelerator pedal position"
+}, {
+	"PID": "5B",
+	"DataLen": 1,
+	"Desc": "Hybrid battery pack remaining life"
+}, {
+	"PID": "5C",
+	"DataLen": 1,
+	"Desc": "Engine oil temperature"
+}, {
+	"PID": "5D",
+	"DataLen": 2,
+	"Desc": "Fuel injection timing"
+}, {
+	"PID": "5E",
+	"DataLen": 2,
+	"Desc": "Engine fuel rate"
+}, {
+	"PID": "5F",
+	"DataLen": 1,
+	"Desc": "Emission requirements to which vehicle is designed"
+}, {
+	"PID": "60",
+	"DataLen": 4,
+	"Desc": "PIDs supported [61 - 80]"
+}, {
+	"PID": "61",
+	"DataLen": 1,
+	"Desc": "Driver's demand engine - percent torque"
+}, {
+	"PID": "62",
+	"DataLen": 1,
+	"Desc": "Actual engine - percent torque"
+}, {
+	"PID": "63",
+	"DataLen": 2,
+	"Desc": "Engine reference torque"
+}, {
+	"PID": "64",
+	"DataLen": 5,
+	"Desc": "Engine percent torque data"
+}, {
+	"PID": "65",
+	"DataLen": 2,
+	"Desc": "Auxiliary input / output supported"
+}, {
+	"PID": "66",
+	"DataLen": 5,
+	"Desc": "Mass air flow sensor"
+}, {
+	"PID": "67",
+	"DataLen": 3,
+	"Desc": "Engine coolant temperature"
+}, {
+	"PID": "68",
+	"DataLen": 7,
+	"Desc": "Intake air temperature sensor"
+}, {
+	"PID": "69",
+	"DataLen": 7,
+	"Desc": "Commanded EGR and EGR Error"
+}, {
+	"PID": "6A",
+	"DataLen": 5,
+	"Desc": "Commanded Diesel intake air flow control and relative intake air flow position"
+}, {
+	"PID": "6B",
+	"DataLen": 5,
+	"Desc": "Exhaust gas recirculation temperature"
+}, {
+	"PID": "6C",
+	"DataLen": 5,
+	"Desc": "Commanded throttle actuator control and relative throttle position"
+}, {
+	"PID": "6D",
+	"DataLen": 6,
+	"Desc": "Fuel pressure control system"
+}, {
+	"PID": "6E",
+	"DataLen": 5,
+	"Desc": "Injection pressure control system"
+}, {
+	"PID": "6F",
+	"DataLen": 3,
+	"Desc": "Turbocharger compressor inlet pressure"
+}, {
+	"PID": "70",
+	"DataLen": 9,
+	"Desc": "Boost pressure control"
+}, {
+	"PID": "71",
+	"DataLen": 5,
+	"Desc": "Variable Geometry turbo (VGT) control"
+}, {
+	"PID": "72",
+	"DataLen": 5,
+	"Desc": "Wastegate control"
+}, {
+	"PID": "73",
+	"DataLen": 5,
+	"Desc": "Exhaust pressure"
+}, {
+	"PID": "74",
+	"DataLen": 5,
+	"Desc": "Turbocharger RPM"
+}, {
+	"PID": "75",
+	"DataLen": 7,
+	"Desc": "Turbocharger temperature"
+}, {
+	"PID": "76",
+	"DataLen": 7,
+	"Desc": "Turbocharger temperature"
+}, {
+	"PID": "77",
+	"DataLen": 5,
+	"Desc": "Charge air cooler temperature (CACT)"
+}, {
+	"PID": "78",
+	"DataLen": 9,
+	"Desc": "Exhaust Gas temperature (EGT) Bank 1"
+}, {
+	"PID": "79",
+	"DataLen": 9,
+	"Desc": "Exhaust Gas temperature (EGT) Bank 2"
+}, {
+	"PID": "7A",
+	"DataLen": 7,
+	"Desc": "Diesel particulate filter (DPF)"
+}, {
+	"PID": "7B",
+	"DataLen": 7,
+	"Desc": "Diesel particulate filter (DPF)"
+}, {
+	"PID": "7C",
+	"DataLen": 9,
+	"Desc": "Diesel Particulate filter (DPF) temperature"
+}, {
+	"PID": "7D",
+	"DataLen": 1,
+	"Desc": "NOx NTE control area status"
+}, {
+	"PID": "7E",
+	"DataLen": 1,
+	"Desc": "PM NTE control area status"
+}, {
+	"PID": "7F",
+	"DataLen": 13,
+	"Desc": "Engine run time"
+}, {
+	"PID": "80",
+	"DataLen": 4,
+	"Desc": "PIDs supported [81 - A0]"
+}, {
+	"PID": "81",
+	"DataLen": 21,
+	"Desc": "Engine run time for Auxiliary Emissions Control Device(AECD)"
+}, {
+	"PID": "82",
+	"DataLen": 21,
+	"Desc": "Engine run time for Auxiliary Emissions Control Device(AECD)"
+}, {
+	"PID": "83",
+	"DataLen": 5,
+	"Desc": "NOx sensor"
+}, {
+	"PID": "84",
+	"DataLen": 1,
+	"Desc": "Manifold surface temperature"
+}, {
+	"PID": "85",
+	"DataLen": 1,
+	"Desc": "NOx reagent system"
+}, {
+	"PID": "86",
+	"DataLen": 1,
+	"Desc": "Particulate matter (PM) sensor"
+}, {
+	"PID": "87",
+	"DataLen": 1,
+	"Desc": "Intake manifold absolute pressure"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+	"PID": "A0",
+	"DataLen": 4,
+	"Desc": "PIDs supported [A1 - C0]"
+}, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, {
+	"PID": "C0",
+	"DataLen": 4,
+	"Desc": "PIDs supported [C1 - E0]"
+}, null, null, {
+	"PID": "C3",
+	"DataLen": 1,
+	"Desc": " ?"
+}, {
+	"PID": "C4",
+	"DataLen": 1,
+	"Desc": " ?"
+}], null, null, null, null, null, null, null, 
+[{
+	"PID": "00",
+	"DataLen": 4,
+	"Desc": "Mode 9 supported PIDs (01 to 20)"
+}, {
+	"PID": "01",
+	"DataLen": 1,
+	"Desc": "VIN Message Count in PID 02. Only for ISO 9141-2, ISO 14230-4 and SAE J1850"
+}, {
+	"PID": "02",
+	"DataLen": 20,
+	"Desc": "Vehicle Identification Number (VIN)"
+}, {
+	"PID": "03",
+	"DataLen": 1,
+	"Desc": "Calibration ID message count for PID 04. Only for ISO 9141-2, ISO 14230-4 and SAE J1850"
+}, {
+	"PID": "04",
+	"DataLen": 16,
+	"Desc": "Calibration ID"
+}, {
+	"PID": "05",
+	"DataLen": 1,
+	"Desc": "Calibration verification numbers (CVN) message count for PID 06. Only for ISO 9141-2, ISO 14230-4 and SAE J1850."
+}, {
+	"PID": "06",
+	"DataLen": 4,
+	"Desc": "Calibration Verification Numbers (CVN)"
+}, {
+	"PID": "07",
+	"DataLen": 1,
+	"Desc": "In-use performance tracking message count for PID 08 and 0B. Only for ISO 9141-2, ISO 14230-4 and SAE J1850."
+}, {
+	"PID": "08",
+	"DataLen": 4,
+	"Desc": "In-use performance tracking for spark ignition vehicles"
+}, {
+	"PID": "09",
+	"DataLen": 1,
+	"Desc": "ECU name message count for PID 0A"
+}, {
+	"PID": "0A",
+	"DataLen": 20,
+	"Desc": "ECU name"
+}, {
+	"PID": "0B",
+	"DataLen": 4,
+	"Desc": "In-use performance tracking for compression ignition vehicles"
+}]]
