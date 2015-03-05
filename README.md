@@ -38,7 +38,7 @@ A tool for analyzing different messages on a given ID. Messages are printed out 
 ```
 
 ### decode_obdii
-Listens on CANBus an prints out OBDII request and replies.
+Listens on CANBus an prints out OBDII request and replies. OBDII message types are provided according to standard request modes and PIDs (e.g. VIN Request or Engine Speed Request).
 
 ### canbus_IDS
 A very simple IDS for CANBus configurable with JSON.
