@@ -19,7 +19,7 @@ node <tool_name.js> <options>
 ```
 ## Tools
 ### unique_ids
-This tool will listen on CANBus and print out a list of all unique IDs that were scene as well as an optional count
+This tool will listen on CANBus and print out a list of all unique IDs (upon exit) that were seen as well as an optional count
 
 #### Options
 ```sh
