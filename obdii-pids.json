@@ -582,7 +582,7 @@
 }, {
 	"PID": "05",
 	"DataLen": 1,
-	"Desc": "Calibration verification numbers (CVN) message count for PID 06. Only for ISO 9141-2, ISO 14230-4 and SAE J1850."
+	"Desc": "Calibration verification numbers (CVN) message count for PID 06. Only for ISO 9141-2, ISO 14230-4 and SAE J1850"
 }, {
 	"PID": "06",
 	"DataLen": 4,
