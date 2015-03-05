@@ -1,7 +1,7 @@
 # canbus-utils
 Command line utilities for analyzing CANBus traffic
 
-Version 0.1.0 releases four tools.
+Version 0.1.0 releases four tools: unique_ids, watch_id, decode_obdii, and canbus_IDS.
 
 ## Installation
 To use these tools you will need a CAN environment and nodejs/iojs. Instructions for setting up a beaglebone black for CANBus work can be found at https://github.com/digitalbond/canbus-beaglebone.
