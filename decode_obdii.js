@@ -2,7 +2,7 @@ var can = require('./init.js');
 var obdiiPIDs = require('./obdii-pids.json');
 
 if (can.argv.h || can.argv.help) {
-	console.log("This tool watches for any OBDII traffic and prints any to stdout");
+	console.log("This tool decodes OBDII traffic and prints any to stdout");
 	can.printOptions();
 	process.exit();
 }
