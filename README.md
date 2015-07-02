@@ -51,3 +51,6 @@ Future versions will allow defining indicators by ctypes structs, ranges, bitmas
 ```JSON
 [{"id":"0x7DF","severity":"HIGH","logmsg":"Attempted OBDII communication"}]
 ```
+
+### fuzz
+A tool for fuzzing random data to random IDs. The tool accepts a minimum and maximum setting for range of IDs to fuzz and then sends random data to said ID.

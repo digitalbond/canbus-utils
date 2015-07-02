@@ -50,7 +50,7 @@ var msgCount = 0;
 
 // console.error("creating channel on " + argv.i, typeof(argv.i));
 
-var can = socketcan.createRawChannel(argv.i, true);
+var can = socketcan.createRawChannel(argv.i);
 
 module.exports.onMessage = function(cb) {
 	can.addListener("onMessage", cb);
@@ -61,6 +61,11 @@ can.addListener("onMessage", function() {
 });
 
 can.start();
+
+module.exports.send = function(msg){
+	can.send(msg);
+};
+
 
 var closecallbacks = [];
 module.exports.onClose = function(cb) {
