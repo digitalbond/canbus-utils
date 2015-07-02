@@ -75,7 +75,6 @@ function sendMsg() {
 	if (basebuffer) {
 		canmsg.data = mutate(basebuffer, mutationRate, mutateIndexMin, mutateIndexMax);
 	} else {
-		//send random buf
 		canmsg.data = new Buffer(crypto.randomBytes(8));
 	}
 
