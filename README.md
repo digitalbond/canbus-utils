@@ -54,3 +54,11 @@ Future versions will allow defining indicators by ctypes structs, ranges, bitmas
 
 ### fuzz
 A tool for fuzzing random data to random IDs. The tool accepts a minimum and maximum setting for range of IDs to fuzz and then sends random data to said ID.
+
+You may optionally provide a base buffer to muate upon using the --basebuffer switch and providing a hex string of bytes. The --mutationRate, --mutateIndexMin, and --mutateIndexMax control how often and which bytes to mutate.
+
+For example, if you wanted to fuzz ID 0x431 with a base buffer of "0011223344556677" and only change the bytes "4455" you would provide a command like
+
+```sh
+node fuzz.js --min 0x431 --max 0x431 --basebuffer "0011223344556677" --mutateIndexMin 4 --mutateIndexMax 5
+```

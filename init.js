@@ -1,5 +1,5 @@
 var argv = require('minimist')(process.argv.slice(2), {
-	string: ['id']
+	string: ['id', 'basebuffer']
 });
 var socketcan = require('socketcan');
 
